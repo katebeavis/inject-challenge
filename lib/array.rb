@@ -1,23 +1,13 @@
 class Array
-
-
-  def injection_replicate(accumulator=0)
-    if accumulator == 0
-      result = accumulator
+  def injection_replicate(accumulator = nil)
+    if accumulator.nil?
+      result = first
     else
-      result = self.first
+      result = accumulator + 1
     end
-      self.each do |element|
-        result = yield(result, element)
+    self[1..-1].each do |element|
+      result = yield(result, element)
     end
     result
   end
-
-
-
-
-
-
 end
-
-# [1, 2, 3, 4].injection_replicate {|result, element| result + element}
