@@ -13,7 +13,7 @@ To understand how the inject method works.
 - Ruby
 - Rspec
 
-### To Run
+## To Run
 ```
 $ git clone https://github.com/katebeavis/inject-challenge.git
 $ cd inject-challenge
@@ -21,7 +21,7 @@ $ irb
     > Dir['./lib/*.rb'].each {|file| require file }
 ```
 
-### To Run Tests
+## To Run Tests
 ```
 $ rspec
 ```
