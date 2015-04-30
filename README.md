@@ -5,11 +5,11 @@ The Inject challenge was the second weekend challenge at Makers Academy.
 
 We were briefed that we had to rewrite the inject method, (assuming a block is always given).
 
-### Objectives
---------
+## Objectives
+
 To understand how the inject method works.
 
-### Technology
+## Technology
 - Ruby
 - Rspec
 
